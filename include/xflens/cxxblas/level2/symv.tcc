@@ -36,7 +36,7 @@
 #include <complex>
 #include "xflens/cxxblas/cxxblas.h"
 
-#ifdef USE_CXXLAPACK
+#if USE_CXXLAPACK
 #include "xflens/cxxlapack/cxxlapack.h"
 #endif
 
@@ -148,7 +148,7 @@ symv(StorageOrder order, StorageUpLo upLo,
                 y, incY);
 }
 
-#ifdef USE_CXXLAPACK
+#if USE_CXXLAPACK
 
 // csymv
 template <typename IndexType>

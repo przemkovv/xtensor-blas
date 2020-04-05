@@ -74,7 +74,7 @@ template <typename IndexType>
          double *y, IndexType incY);
 
 // Complex functions symv provided by lapack
-#ifdef USE_CXXLAPACK
+#if USE_CXXLAPACK
 
 // csymv
 template <typename IndexType>

@@ -21,7 +21,9 @@
 #include "xtensor/xtensor.hpp"
 #include "xtensor/xutils.hpp"
 
+#if USE_CXXLAPACK
 #include "xflens/cxxlapack/cxxlapack.cxx"
+#endif
 
 #include "xtensor-blas/xblas_config.hpp"
 #include "xtensor-blas/xblas_utils.hpp"

@@ -19,7 +19,7 @@
 #endif
 
 #ifndef USE_CXXLAPACK
-#define USE_CXXLAPACK
+#define USE_CXXLAPACK 1
 #endif
 
 #ifndef BLAS_IDX
