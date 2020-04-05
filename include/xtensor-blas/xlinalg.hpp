@@ -28,7 +28,9 @@
 #include "xtensor/xview.hpp"
 
 #include "xtensor-blas/xblas.hpp"
+#if USE_CXXLAPACK
 #include "xtensor-blas/xlapack.hpp"
+#endif
 #include "xtensor-blas/xblas_utils.hpp"
 
 namespace xt
